@@ -97,11 +97,19 @@ Ratio_p = \frac{\widehat{Q}_{est,p}}{\widehat{Q}_{cel,p}}.
 O log-gap é:
 
 ```math
-Gap^{log}_p = \log(\widehat{Q}_{est,p}) - \log(\widehat{Q}_{cel,p})
-= \log\left(\frac{\widehat{Q}_{est,p}}{\widehat{Q}_{cel,p}}\right).
+Gap^{\mathrm{log}}_p
+=
+\log(\widehat{Q}_{\mathrm{est},p})
+-
+\log(\widehat{Q}_{\mathrm{cel},p})
+=
+\log\left(
+\frac{\widehat{Q}_{\mathrm{est},p}}
+{\widehat{Q}_{\mathrm{cel},p}}
+\right).
 ```
 
-Valores positivos de $Gap^{\%}_p$ ou $Gap^{log}_p$ indicam remuneração maior entre estatutários naquele percentil. Valores negativos indicam remuneração maior entre celetistas.
+Valores positivos de $Gap^{\mathrm{pct}}_p$ ou $Gap^{\mathrm{log}}_p$ indicam remuneração maior entre estatutários naquele percentil. Valores negativos indicam remuneração maior entre celetistas.
 
 ## Classificação de regime de vínculo
 
