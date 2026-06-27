@@ -1,0 +1,56 @@
+# ============================================================
+# RAIS_BD - arquivos que NÃO devem ir para o GitHub
+# ============================================================
+
+# Credenciais e variáveis locais
+.env
+.Renviron
+.Rprofile
+.Rhistory
+.RData
+
+# Temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Temporários R/Stata/DuckDB
+*.log
+*.tmp
+*.bak
+*.wal
+*.duckdb
+*.duckdb.wal
+duckdb_temp/
+
+# Bases grandes baixadas/geradas localmente
+# Estes diretórios podem ultrapassar facilmente o limite de 100 MB por arquivo do GitHub.
+rais_2025_download_bigquery_raw/
+rais_2025_vinculos_populacao_total/
+rais_2025_bases_graficos_percentis/
+
+# Formatos de dados gerados pelo pipeline
+*.parquet
+*.dta
+*.rds
+*.Rds
+*.fst
+*.feather
+*.duckdb
+*.csv
+
+# Figuras e saídas renderizadas geradas localmente
+figuras*/
+figures*/
+outputs*/
+results*/
+
+# Cache de IDEs
+.Rproj.user/
+.vscode/
+.idea/
+
+# Exceções: permita versionar arquivos de documentação, se existirem
+!README.md
+!docs/**/*.md
+!*.md
+!.env.example
